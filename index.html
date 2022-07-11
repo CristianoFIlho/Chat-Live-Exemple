@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+
+<div class="chat-box fixed-positioning">
+    <link rel="stylesheet" href="style.css">
+    <div class="chat-header">
+      <span>Chat - Irmãos Gonçalves</span>
+      <button>Visualizar</button>
+    </div>
+    <div class="chat-content">
+      <p class="chat-title">Por Favor, preencha os campos obrigatórios.</p>
+      <form action="javascript:void(0)" class="chat-form">
+        <div>
+          <label for="name">Seu nome: <span>*</span></label>
+          <input type="text" id="name" required>
+        </div>
+        <div>
+          <label for="email">E-mail: <span>*</span></label>
+          <input type="email" id="email" required>
+        </div>
+        <div>
+          <label for="subject">Assunto: <span>*</span></label>
+          <input type="text" id="subject" required>
+        </div>
+        <div>
+          <label for="message">Mensagem: <span>*</span></label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </div>  
+  
